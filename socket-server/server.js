@@ -1,4 +1,3 @@
-require("dotenv").config();
 const { createServer } = require("http");
 const { Server }       = require("socket.io");
 const axios            = require("axios");

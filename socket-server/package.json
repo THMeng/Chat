@@ -1,21 +1,17 @@
 {
-    "name": "chat-socket-server",
-    "version": "1.0.0",
-    "description": "Socket.io server for real-time chat",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js",
-        "dev": "nodemon server.js"
-    },
-    "dependencies": {
-        "axios": "^1.7.2",
-        "dotenv": "^16.4.5",
-        "socket.io": "^4.7.5"
-    },
-    "devDependencies": {
-        "nodemon": "^3.1.4"
-    },
-    "engines": {
-        "node": ">=18.0.0"
-    }
+  "name": "chat-socket-server",
+  "version": "1.0.0",
+  "description": "Socket.io server for real-time chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
